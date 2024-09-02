@@ -1,0 +1,16 @@
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+span#vermelho {
+    color: red;
+}
+
+div.secao1 {
+    color: orange;
+}
+
+div#secao2 {
+    color: green;
+}

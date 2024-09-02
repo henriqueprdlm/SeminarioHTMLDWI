@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Exemplo prático desenvolvido para um seminário sobre HTML da disciplina de Desenvolvimento Web I">
+    <meta name="keywords" content="HTML, Exemplos, Desenvolvimento Web">
+    <meta name="author" content="Henrique Pieri de Lima">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="img/favicon/site.webmanifest">
+
+    <title>Seminário HTML</title>
+</head>
+<body>
+    <header>
+        <h1>Este é um heading 1</h1>
+        <h2>Este é um heading 2</h2>
+        <h3>Este é um heading 3</h3>
+        <h4>Este é um heading 4</h4>
+        <h5>Este é um heading 5</h5>
+        <h6>Este é um heading 6</h6>
+    </header>
+    <main>
+        <p>Este é um parágrafo</p>
+        <p><b>Texto em negrito</b></p>
+        <p><strong>Texto importante</strong></p>
+        <p><i>Texto em itálico</i></p>
+        <p><em>Texto com ênfase</em></p>
+        <p><mark>Texto marcado</mark></p>
+        <p><small>Texto menor</small></p>
+        <p><s>Texto tachado</s></p>
+        <p><u>Texto sublinhado</u></p>
+        <p><del>Texto deletado</del></p>
+        <p><ins>Texto inserido</ins></p>
+        <p>Texto <sub>subscrito</sub></p>
+        <p>Texto <sup>sobrescrito</sup></p>
+        <p>Texto com <span id="vermelho">span</span></p>
+        <br>
+
+        <div class="secao1">
+            <p>Texto dentro de uma div com classe</p>
+        </div>
+        <div class="secao1">
+            <p>Outro texto dentro de uma div com classe</p>
+        </div>
+
+        <div id="secao2">
+            <p>Texto dentro de uma div com id</p>
+        </div>
+        <br>
+
+        <a href="https://videira.ifc.edu.br">Esta é uma âncora/link para o site do IFC</a>
+        <br>
+        <a href="#secao2">Esta é uma âncora/link para a seção 2 deste site</a>
+
+        <a href="videira.ifc.edu.br">
+            <div>
+                <p>Esta é uma âncora/link em um parágrafo dentro de uma div</p>
+            </div>
+        </a>
+
+        <p><a href="https://videira.ifc.edu.br" target="_blank">Este link abrirá em uma nova janela</a></p>
+        <p><a href="https://videira.ifc.edu.br" target="_self">Este link abrirá na mesma janela</a></p>
+
+        <img src="img/cachorro.jpeg" alt="Imagem de um cachorro muito fofo sorrindo" height="400"><br>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Dog_for_Senior_Dog_Food_Diet_Wikipedia_Page.jpg/2560px-Dog_for_Senior_Dog_Food_Diet_Wikipedia_Page.jpg" alt="Imagem de um cachorro sério" height="400"><br>
+
+        <video height="400" autoplay muted loop controls>
+            <source src="img/gato tocando piano.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video><br>
+        <iframe width="560" height="400" src="https://www.youtube.com/embed/ezRcaI6cJUg?si=c_OmUBHFynzydKQG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><br>
+       
+        <p><a href="https://favicon.io" target="_blank">Site para criar favicon</a></p>
+
+        <table>
+            <tr>
+                <th>Coluna 1</th>
+                <th>Coluna 2</th>
+                <th>Coluna 3</th>
+                <th>Coluna 4</th>
+            </tr>
+
+            <tr>
+                <td>aaaaaa</td>
+                <td>bbbbbb</td>
+                <td>cccccc</td>
+                <td>dddddd</td>
+            </tr>
+
+            <tr>
+                <td>eeeeee</td>
+                <td>ffffff</td>
+                <td>gggggg</td>
+                <td>hhhhhh</td>
+            </tr>
+
+            <tr>
+                <td>iiiiii</td>
+                <td>jjjjjj</td>
+                <td>kkkkkk</td>
+                <td>llllll</td>
+            </tr>
+        </table>
+
+        <br>
+        <h4>Lista ordenada:</h4>
+        <ol>
+            <li>Elemento 1</li>
+            <li>Elemento 2</li>
+            <li>Elemento 3</li>
+            <li>Elemento 4</li>
+        </ol>
+
+        <br>
+        <h4>Lista não-ordenada:</h4>
+        <ul>
+            <li>Elemento 1</li>
+            <li>Elemento 2</li>
+            <li>Elemento 3</li>
+            <li>Elemento 4</li>
+        </ul>
+
+        <br>
+        <h4>Lista de descrição:</h4>
+        <dl>
+            <dt>Elemento 1</dt>
+            <dd>Descrição do elemento 1</dd>
+
+            <dt>Elemento 2</dt>
+            <dd>Descrição do elemento 2</dd>
+
+            <dt>Elemento 3</dt>
+            <dd>Descrição do elemento 3</dd>
+
+            <dt>Elemento 4</dt>
+            <dd>Descrição do elemento 4</dd>
+        </dl>
+    </main>
+    <footer>
+        <a href="formulario.html" target="_blank">Link para o formulário</a>
+    </footer>
+</body>
+</html>
